@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags</title>
+
+</head>
+<body>
+    <!-- <audio src="./Sapphire.mp3" controls></audio>-->
+    <!-- <video height="300px" width="300px" src="./movie.mp4" autoplay muted controls></video>  -->
+    <!-- <video  src="./movie.mp4" poster="../Day 3/root/lion.jpg" controls></video> -->
+
+    <!-- Professional way that supports when broswer failed to support one type -->
+    <video controls>
+        <source src="./movie.mp4" type="video/mp4">
+        <source src="./movie.webm" type="video/webm">
+    </video>
+</body>
+</html>

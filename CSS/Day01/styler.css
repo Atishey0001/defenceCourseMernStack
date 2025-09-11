@@ -1,0 +1,69 @@
+/* Tag element selecter */
+/* h1{
+    background-color: antiquewhite;
+}
+h2{
+    background-color: pink;
+} */
+
+/* id base selection or # base selection*/
+/* #first{
+    background-color: greenyellow;
+}
+#second{
+    background-color: antiquewhite;
+} */
+
+/* class base selection or . base selection */
+/* .third{
+    background-color: blue;
+} */
+
+/* group base selection */
+/* h1, #second, .third{
+    background-color: goldenrod;
+} */
+
+/* rgb, rgba, hsl, hsla, hexidemalCode */
+/* rgb and rgba-->
+/* h1{
+    background-color: rgb(234, 32, 232);
+} 
+h2{
+    background-color: rgba(234, 32, 232, 0.3);
+} */
+/* hsl and hsla-->*/
+/* h1{
+    background-color: hsl(345, 50%, 50%);
+}
+h2{
+        background-color: hsla(345, 50%, 50%, 0.3);
+} */
+/* hexadecimal */
+/* h1{
+    background-color: #F54927;
+} */
+
+/* font */
+/* h1{
+    font-size: 50px;
+}
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 2em;
+} */
+/* html{
+    font-size: 20px;
+}
+li{
+    font-size: 2rem;
+} */
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900px; /* 900px is Max */
+    font-style: italic;
+} 
+
+
