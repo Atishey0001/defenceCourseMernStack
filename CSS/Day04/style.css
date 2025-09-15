@@ -1,0 +1,37 @@
+.container{
+    background-color: pink;
+    height: 700px;
+    display: flex;
+    /* flex-direction: row;*/ /* (default) */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center; 
+
+    /* flex-wrap: wrap; */
+    /* gap: 30px; */
+
+    
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.one{
+    background-color: red;
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 500px; */
+}
+.two{
+    background-color: green;
+    /* flex-grow: 4; */
+    align-self: flex-start;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: yellowgreen;
+}
