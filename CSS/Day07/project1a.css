@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    position: absolute;
+    background-color: green;
+    height: 100px;
+    width: 700px;
+}
+p{
+    
+    animation-name: movingTxt;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+@keyframes movingTxt {
+    from{
+        left:100%;
+    }
+    to{
+        left:-100%;
+    }
+}
